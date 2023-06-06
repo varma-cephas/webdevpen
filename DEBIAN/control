@@ -1,0 +1,5 @@
+Package: webdevpen
+Version: 1.0
+Architecture: all
+Maintainer: Varma V. Cephas <varmac231@gmail.com> and Sam B. Morris <divinestylus@gmail.com>
+Description: A simple application that generates HTML CSS and JS BoilerPlate for you along with git
