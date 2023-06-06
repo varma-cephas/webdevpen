@@ -1,0 +1,20 @@
+# this is going to run the python script for the success ascii  message
+
+# this is going to check if the name of the folder is valid or invalid || this script needs to be rechecked for consistency purposes
+if [ -z "$1" ]
+  then
+    echo "Invalid folder name, please try again"
+    exit 1
+# this will run the program if the conditions are met
+else
+	mkdir $1
+	cp -r /usr/share/html_css_js/.  $1
+	echo ""
+	python3 /usr/share/figlet/figlets.py
+
+	echo "Thanks for being here"
+	echo "cd into $1 "
+	echo "Happy Coding"
+	echo ""
+fi
+
